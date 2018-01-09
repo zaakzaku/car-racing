@@ -1,0 +1,119 @@
+.note {
+  font-size: 16px;
+  line-height: 22px;
+  background: #f8f1c6;
+  background: linear-gradient(#f8f1c6 0%, #f8f1c6 96%, #cfceab 100%);
+  background-size: 1px 22px;
+  border-radius: 3px;
+  border: 1px solid #C4C296;
+  color: #878260;
+  text-shadow: 0 1px 1px white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1),
+  inset 0 1px 1px rgba(255,255,255,0.8);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.note > i {
+  display: block;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color: #f8f1c6;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 200px;
+}
+
+.note > b {
+  display: block;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color: #C4C296;
+  position: absolute;
+  margin-top: -31px;
+  margin-left: 200px;
+}
+
+.note > div {
+  background:
+  radial-gradient(#edf1f9 30%, transparent 31%) 0 0,
+  radial-gradient(rgba(0,0,0,0.8) 30%, transparent 35%) 0 0px;
+  background-size: 40px 40px;
+  background-repeat: repeat-y;
+  margin-left: 3px;
+}
+
+.note > div.off {
+  background: none;
+  margin-left: -20px;
+}
+
+.note > div > div,
+.note > div > div > div {
+  height: 100%;
+  border-left: 1px solid #ddbbb8;
+  box-shadow: 0 0 1px rgba(221,187,184,0.4),
+  inset 0 0 1px rgba(221,187,184,0.4);
+}
+
+.note > div > div {
+  margin-left: 40px;
+}
+
+.note > div > div > div {
+  padding: 22px 20px 21px 20px;
+  margin-left: 4px;
+  outline: none;
+}
+
+.note > div > div > div > span {
+  color: #9C9778;
+  font-weight: bold;
+}
+#main-text {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+#the-text {
+  width: 450px;
+  height: 45px;
+  text-overflow: : 45px;
+  font-size: 40px;
+}
+#input_field {
+  width: 952px;
+}
+.container .car {
+  height: 50px;
+  border-bottom-style: dashed;
+  padding-left: 0px;
+}
+.container .cars {
+  margin-bottom: 20px;
+}
+.container .car > img {
+  padding-left: 0px;
+}
+.active {
+  color: green;
+}
+.error {
+  background-color: red;
+}
+span.error {
+  color: red;
+  background-color: #9c9c9c;
+}
+
+.time {
+  padding-left: 930px;
+}
+.rel-time{
+  float: top;
+}
+

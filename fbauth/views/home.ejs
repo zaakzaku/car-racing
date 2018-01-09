@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+ <section data-social>
+<% if (!user) { %>
+   <a href="/login/facebook" class="ion-social-facebook"><i class="fa fa-facebook" style="border:none;"></i><span>Facebook ээр нэвтэрэх</span></a>
+<% } else { %>
+	<p>Hello, <%= user.displayName %>. View your <a href="/profile">profile</a>.</p>
+<% } %>
+   </section>
+</body>
+</html>
+
